@@ -32,8 +32,6 @@ A simple backend application for managing products in an e-commerce platform. Bu
 ProductsEcom/ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com.example.productsecom/ │ │ │ ├── controller/ │ │ │ ├── model/ │ │ │ ├── repository/ │ │ │ └── service/ │ │ └── resources/ │ │ ├── application.properties │ │ └── data.sql ├── pom.xml
 
 yaml
-Copy
-Edit
 
 ---
 
@@ -48,14 +46,10 @@ Open in your IDE (e.g., IntelliJ IDEA, Eclipse)
 Build the project
 
 bash
-Copy
-Edit
 ./mvnw clean install
 Run the application
 
 bash
-Copy
-Edit
 ./mvnw spring-boot:run
 Access API
 
