@@ -66,9 +66,6 @@ H2 Console (if using H2): http://localhost:8080/h2-console
 🧪 Sample SQL
 Add this to data.sql to pre-load data:
 
-sql
-Copy
-Edit
 INSERT INTO product (name, description, brand, price, category, release_date, available, quantity)
 VALUES ('Tata Nexon', 'A compact SUV with excellent safety features.', 'Tata Motors', 750000.00, 'Cars', '2024-01-15', true, 50);
 ✍️ Author
